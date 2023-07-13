@@ -3,8 +3,11 @@
   grid-template-columns: repeat(7, 1fr);
   row-gap: 20px;
   column-gap: 10px;
+  max-width: 60%;
+  margin: 0 auto;
 }
-.date {
+.date,
+#day {
   background-color: skyblue;
   border-radius: 5px;
   height: 50px;
@@ -12,4 +15,11 @@
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+}
+#day {
+  background-color: lightgray;
+  font-size: 1rem;
+}
+.title {
+  text-align: center;
 }
